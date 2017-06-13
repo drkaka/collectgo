@@ -8,8 +8,8 @@
     },
     "tasks": [
         {
-            "taskName": "run",
-            "args": [ "-ldflags", "-X main.buildMode=debug", "main.go"],
+            "taskName": "build",
+            "args": ["-o", "collectgo", "main.go"],
             "isBuildCommand": true
         },
         {

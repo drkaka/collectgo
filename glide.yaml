@@ -1,2 +1,8 @@
 package: github.com/drkaka/collectgo
-import: []
+import: 
+- package: github.com/urfave/cli
+  version: ^1.0.0
+- package: github.com/howeyc/fsnotify
+  version: ^0.9.0
+- package: github.com/drkaka/lg
+  version: "*"
